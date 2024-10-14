@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    SetConsoleOutputCP(1251);
+    SetConsoleCP(1251);
+    float t1,t2,t3;
+    printf("Ââåä³òü ÷àñ(â ãîäèíàõ) çà ÿêèé êîæåí ã³ñòü ç'¿äàº ïèð³ã\n");
+    scanf("%f %f %f",&t1,&t2,&t3);
+    float t = 1/t1 + 1/t2 + 1/t3;
+    float th =1/t;
+    printf("Ãîñòÿì ïîòð³áíî %.2f ãîäèíè ùîá ç'¿ñòè âåñü ïèð³ã",th);
+    return 0;
+}
